@@ -1,0 +1,2 @@
+# amanager
+a manager
