@@ -1,0 +1,16 @@
+<div class="sidebar {{if collapsed 'sidebar-collapsed'}} {{class}}">
+
+    <a class="btn btn-block btn-lg sidebar-toggle" {{ action onCollapse }}>
+      {{#if collapsed}}
+          <i class="ion-ios-arrow-right"></i>
+      {{else}}
+          <i class="ion-ios-arrow-left"></i>
+      {{/if}}
+    </a>
+    <ul class="nav nav-sidebar">
+      {{side-bar-item icon="ion-ios-home-outline" caption="Start" route="home"}}
+      {{side-bar-item icon="ion-ios-paper-outline" caption="Artikelen" route="articles"}}
+      {{side-bar-item icon="ion-ios-download-outline" caption="Export" route="export"}}
+    </ul>
+  {{yield}}
+</div>

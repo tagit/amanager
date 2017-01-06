@@ -1,0 +1,14 @@
+.navbar-inverse {
+  background-image: none;
+  background-color: #000;
+}
+
+.navbar {
+  [class*='ion-'] {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-bottom: -.25em;
+    margin-top: -.25em;
+    vertical-align: middle;
+  }
+}

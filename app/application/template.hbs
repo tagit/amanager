@@ -1,0 +1,13 @@
+{{nav-bar}}
+
+<div class="container-fluid">
+    <div class="row">
+      {{side-bar class=sidebarClass collapsed=(not sidebarOpen) onCollapse=(action "toggleSidebar")}}
+
+        <div class="{{contentClass}} main">
+          {{ outlet }}
+        </div>
+    </div>
+</div>
+
+

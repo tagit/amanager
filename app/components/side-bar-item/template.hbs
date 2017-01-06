@@ -1,0 +1,9 @@
+{{#active-link class=class}}
+  {{#if route}}
+    {{#link-to route}}
+      {{#if icon}}<i class="{{icon}}"></i>{{/if}}
+      <span class="sidebar-item-caption">{{caption}}</span>
+    {{/link-to}}
+  {{/if}}
+  {{yield}}
+{{/active-link}}
