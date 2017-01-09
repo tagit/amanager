@@ -7,6 +7,10 @@ module.exports = function(defaults) {
     'ember-bootstrap': {
       //'importBootstrapCSS': false
       //'importBootstrapTheme': true
+    },
+    fingerprint: {
+      //exclude: ['fonts/169929'],
+      prepend: 'https://amanager.file.core.windows.net/amanager-statics'
     }
   });
 

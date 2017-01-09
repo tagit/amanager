@@ -12,7 +12,7 @@ export default Ember.Controller.extend({
   contentClass: Ember.computed('sidebarOpen', function () {
     const sidebarOpen = this.get('sidebarOpen');
     const colSmWidth = sidebarOpen ? '9' : '11';
-    const colSmOffset = sidebarOpen ? '3' : '11';
+    const colSmOffset = sidebarOpen ? '3' : '1';
     return `col-sm-${colSmWidth} col-sm-offset-${colSmOffset} ` + (sidebarOpen ? 'col-md-10 col-md-offset-2' : '');
   }),
 
