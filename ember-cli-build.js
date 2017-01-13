@@ -10,7 +10,7 @@ module.exports = function(defaults) {
     },
     fingerprint: {
       //exclude: ['fonts/169929'],
-      prepend: 'https://amanager.file.core.windows.net/amanager-statics'
+      prepend: 'https://amanager.blob.core.windows.net/amanager-statics/'
     }
   });
 
